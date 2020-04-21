@@ -1,0 +1,4 @@
+python
+selenium
+firefox/chrome
+geckodriver/chromedriver
