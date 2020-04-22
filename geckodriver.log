@@ -1,0 +1,19 @@
+1587579216083	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1O23rU"
+*** You are running in headless mode.
+1587579216739	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1587579217527	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1587579217527	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1587579217527	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1587579217527	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1587579219737	Marionette	INFO	Listening on port 41797
+1587579219796	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://41g9jpe4n0b-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200421-085600-RC00_307577220, line 142: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://yvp09qixknh-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200421-085600-RC00_307577220, line 142: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 174: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://z2ts7iupwwk-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200421-085600-RC00_307577220, line 142: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s9p5nggck9-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200421-085600-RC00_307577220, line 142: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://s9p5nggck9-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200421-085600-RC00_307577220, line 142: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://z2ts7iupwwk-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200421-085600-RC00_307577220, line 142: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+1587579301253	Marionette	INFO	Stopped listening on port 41797

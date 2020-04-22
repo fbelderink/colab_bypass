@@ -9,10 +9,11 @@ import json
 import random
 import time
 
+
 import os
 import sys
 
-def visitPage(email, password):
+def visitPage(email, password, link_notebook):
     options = Options()
     options.headless = True
     driver = webdriver.Firefox(options=options)
@@ -37,8 +38,8 @@ def visitPage(email, password):
         
         print("signed in")
 
-        driver.get('https://colab.research.google.com/drive/19rP2swTDmJ05Bf6zjOK4gQFZoX1m7kAx')
-         
+        driver.get(link_notebook)
+
         rand = random.randint(1, 4)
         time.sleep(60 * rand)
 
@@ -53,12 +54,14 @@ if __name__ == "__main__":
 
         email = f_js["email"]
         password = f_js["password"]
-        
+        link_notebook = f_js["link_notbook"]
+
         f.close()
     else:
         sys.stdout.write("\rEmail: ")
         email = input()
         password = getpass()
-
-    visitPage(email, password)
+        sys.stdout.write("\rLink: ")
+        link_notebook = input()
+    visitPage(email, password, link_notebook)
 
